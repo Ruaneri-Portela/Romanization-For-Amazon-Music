@@ -31,3 +31,9 @@ Servidor:
 Python, Flash e o KAKASI
 
 Kakasi e um software de transliteração em C, ele e usado como nosso backend para converter os hiragana, katakana e kanjis em romanji... Mais informações em http://kakasi.namazu.org/index.html.en 
+
+
+----------------------------------
+The software in python is not yet available, nor the api... please wait
+
+O software em python ainda não esta disponível, nem a api... aguarde
