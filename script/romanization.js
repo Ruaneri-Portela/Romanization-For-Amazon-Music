@@ -53,7 +53,7 @@ async function romanizeStrings() {
                 });
               percursion++;
             }else{
-              el.textContent = stringsArray[percursion]+"​";
+              el.append("​");
               percursion++;
             }
           });
