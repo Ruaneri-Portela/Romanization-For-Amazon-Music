@@ -34,6 +34,9 @@ Kakasi e um software de transliteração em C, ele e usado como nosso backend pa
 
 
 ----------------------------------
+![Não Romanizado/Non Romanized](URL_da_imagem)
+![Romanizado/Romanized]](URL_da_imagem)
+
 The software in python is not yet available, nor the api... please wait
 
 O software em python ainda não esta disponível, nem a api... aguarde
