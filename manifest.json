@@ -1,18 +1,19 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Romanização Japonesa",
   "version": "1.0",
   "description": "Plugin do Chrome para romanizar letras em japonês.",
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content-script.js"],
+      "matches": ["http://music.amazon.com.br/*", "https://music.amazon.com.br/*","http://music.amazon.com/*", "https://music.amazon.com/*"],
+      "js": ["script/romanization.js"],
       "run_at": "document_end"
     }
   ],
   "permissions": [
-    "activeTab",
-    "webRequest",
-    "webRequestBlocking"
-  ]
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "html/popup.html"
+  }
 }
