@@ -34,8 +34,10 @@ Kakasi e um software de transliteração em C, ele e usado como nosso backend pa
 
 
 ----------------------------------
-![Não Romanizado/Non Romanized](URL_da_imagem)
-![Romanizado/Romanized]](URL_da_imagem)
+Original
+![Não Romanizado/Non Romanized](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/blob/main/github/non-romanized.png?raw=true)
+Com o plugin/ At plugin
+![Romanizado/Romanized](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/blob/main/github/romanized.png?raw=true)
 
 The software in python is not yet available, nor the api... please wait
 
