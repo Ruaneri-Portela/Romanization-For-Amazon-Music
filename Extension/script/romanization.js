@@ -8,7 +8,7 @@ function hasJapaneseCharacters(str) {
 }
 
 function romanize(dataIn) {
-  const url = 'http://localhost:5000/convert';
+  const url = 'https://romanization.hirameki.me/';
   const inputData = 'input=' + dataIn;
 
   return fetch(url, {

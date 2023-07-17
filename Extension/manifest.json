@@ -1,8 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Romanização Japonesa",
+  "name": "Romanization For Amazon Music",
   "version": "0.1",
-  "description": "Plugin do Chrome para romanizar letras em japonês.",
+  "description": "Plugin for chromium browser to add romanization to lyrics on Amazon Music",
+  "background":  {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["http://music.amazon.com.br/*", "https://music.amazon.com.br/*","http://music.amazon.com/*", "https://music.amazon.com/*"],
