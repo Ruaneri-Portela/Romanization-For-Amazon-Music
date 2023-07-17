@@ -13,7 +13,7 @@ Client:
 Plugin and constant internet connection.
 
 Server (Read on end this document):
-Python, Flash and KAKASI
+Python, Flash, Gunicorn and KAKASI
 
 Kakasi is a transliteration software in C, it is used as our backend to convert the hiragana, katakana and kanji into romanji... More information at http://kakasi.namazu.org/index.html.en or https://github.com/loretoparisi/kakasi
 
@@ -28,7 +28,7 @@ Cliente:
 Plugin e conexão constante com a internet.
 
 Servidor (Leia no fim desse documento):
-Python, Flash e o KAKASI
+Python, Flash, Gunicorn e o KAKASI
 
 Kakasi e um software de transliteração em C, ele e usado como nosso backend para converter os hiragana, katakana e kanjis em romanji... Mais informações em http://kakasi.namazu.org/index.html.en ou https://github.com/loretoparisi/kakasi
 
