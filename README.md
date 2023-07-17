@@ -1,4 +1,8 @@
 # Romanization for Amazon Music α (RfAM) 🎵
+By using the plugin you agree to share your IP, and the text of your music played, and you also agree that we will store the log of your requests for an indefinite period of time.
+
+Ao usar o plugin você concorda em partilhar seu IP, e o texto da sua musica reproduzida, concordando também em guardamos o log de seus requestes por um tempo indeterminado
+
 # 🇺
 
 Chrome Plugin to add version transliterate (in lantin) in japanese music with letter on Amazon Music web player
