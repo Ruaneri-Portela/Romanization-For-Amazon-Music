@@ -39,6 +39,6 @@ Original
 Com o plugin/ At plugin
 ![Romanizado/Romanized](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/blob/main/github/romanized.png?raw=true)
 
-[API informations in ...](https://github.com/Ruaneri-Portela/KakasiAPI-Docker)
+[API informations HERE](https://github.com/Ruaneri-Portela/KakasiAPI-Docker)
 
-[Informações da API em](https://github.com/Ruaneri-Portela/KakasiAPI-Docker)https://github.com/Ruaneri-Portela/KakasiAPI-Docker
+[Informações da API AQUI](https://github.com/Ruaneri-Portela/KakasiAPI-Docker)
