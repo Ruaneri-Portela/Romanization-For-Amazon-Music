@@ -15,7 +15,7 @@ Plugin and constant internet connection.
 Server:
 Python, Flash and KAKASI
 
-Kakasi is a transliteration software in C, it is used as our backend to convert the hiragana, katakana and kanji into romanji... More information at http://kakasi.namazu.org/index.html.en 
+Kakasi is a transliteration software in C, it is used as our backend to convert the hiragana, katakana and kanji into romanji... More information at http://kakasi.namazu.org/index.html.en or https://github.com/loretoparisi/kakasi
 
 # 🇧🇷
 "Nossa que maneiro... letras no serviço de streaming ... queria cantar! mas não sei nada da escrita nipponica..." SEUS PROBLEMAS ACABARAM, ao menos no Amazon Music!
@@ -30,7 +30,7 @@ Plugin e conexão constante com a internet.
 Servidor:
 Python, Flash e o KAKASI
 
-Kakasi e um software de transliteração em C, ele e usado como nosso backend para converter os hiragana, katakana e kanjis em romanji... Mais informações em http://kakasi.namazu.org/index.html.en 
+Kakasi e um software de transliteração em C, ele e usado como nosso backend para converter os hiragana, katakana e kanjis em romanji... Mais informações em http://kakasi.namazu.org/index.html.en ou https://github.com/loretoparisi/kakasi
 
 
 ----------------------------------
