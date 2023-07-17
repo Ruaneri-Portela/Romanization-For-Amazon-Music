@@ -1,7 +1,7 @@
 # Romanization for Amazon Music α (RfAM) 🎵
 By using the plugin you agree to share your IP, and the text of your music played, and you also agree that we will store the log of your requests for an indefinite period of time.
 
-Ao usar o plugin você concorda em partilhar seu IP, e o texto da sua musica reproduzida, concordando também em guardamos o log de seus requestes por um tempo indeterminado
+Ao usar o plugin você concorda em partilhar seu IP, e o texto da sua musica reproduzida, concordando também em armazenar os logs de seus pedidos por um tempo indeterminado
 
 # 🇺
 
