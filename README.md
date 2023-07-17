@@ -1,4 +1,4 @@
-# Romanization for Amazon Music 🎵
+# Romanization for Amazon Music (RfAM) 🎵
 # 🇺
 
 Chrome Plugin to add version transliterate (in lantin) in japanese music with letter on Amazon Music web player
