@@ -39,6 +39,6 @@ Original
 Com o plugin/ At plugin
 ![Romanizado/Romanized](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/blob/main/github/romanized.png?raw=true)
 
-The software in python is not yet available, nor the api... please wait
+[API informations in ...](https://github.com/Ruaneri-Portela/KakasiAPI-Docker)
 
-O software em python ainda não esta disponível, nem a api... aguarde
+[Informações da API em](https://github.com/Ruaneri-Portela/KakasiAPI-Docker)https://github.com/Ruaneri-Portela/KakasiAPI-Docker
