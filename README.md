@@ -5,6 +5,8 @@ Ao usar o plugin você concorda em partilhar seu IP, e o texto da sua musica rep
 
 # 🇺🇸
 
+!NOW SUPPORTS SPOTIFY!
+
 Chrome Plugin to add version transliterate (in lantin) in japanese music with letter on Amazon Music web player
 
 "Wow how cool... lyrics on the streaming service... i wanted to sing! but i don't know anything about nipponic writing..." YOUR PROBLEMS ARE OVER, at least on Amazon Music!
@@ -30,6 +32,9 @@ Python, Flash, Gunicorn and KAKASI
 Kakasi is a transliteration software in C, it is used as our backend to convert the hiragana, katakana and kanji into romanji... More information at http://kakasi.namazu.org/index.html.en or https://github.com/loretoparisi/kakasi
 
 # 🇧🇷
+
+! AGORA SUPORTAMOS O SPOTIFY !
+
 "Nossa que maneiro... letras no serviço de streaming ... queria cantar! mas não sei nada da escrita nipponica..." SEUS PROBLEMAS ACABARAM, ao menos no Amazon Music!
 
 Esse plugin de codigo aberto para o chromumium browser disponibiliza uma versão romanizada (ou transliterada para o latin, chame como quiser) de musicas em japonês.
