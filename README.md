@@ -3,7 +3,7 @@ By using the plugin you agree to share your IP, and the text of your music playe
 
 Ao usar o plugin você concorda em partilhar seu IP, e o texto da sua musica reproduzida, concordando também em armazenar os logs de seus pedidos por um tempo indeterminado
 
-# 🇺
+# 🇺🇸
 
 Chrome Plugin to add version transliterate (in lantin) in japanese music with letter on Amazon Music web player
 
