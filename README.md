@@ -14,9 +14,9 @@ This open source plugin for the chromumium browser provides a romanized (or tran
 Basic installation guide
 ----------------------------------
 1. Download the .CRX or .ZIP, if you download the ZIP unzip it into a folder that contains only the extension files after decompression
-2.Go to your extension page in your favorite browser
-3.Put it in dev mode.
-4.Load the extension, in the files has the .crx, but for example the EDGE only has the option to load the unzipped version. You will select the folder in case you load the unpacked extension.
+2. Go to your extension page in your favorite browser
+3. Put it in dev mode.
+4. Load the extension, in the files has the .crx, but for example the EDGE only has the option to load the unzipped version. You will select the folder in case you load the unpacked extension.
 5. After that the extension should be working, test on Amazon Music 😊
 
 Requirements... 
@@ -37,10 +37,11 @@ Esse plugin de codigo aberto para o chromumium browser disponibiliza uma versão
 Guia Básico de instalação
 ----------------------------------
 1. Baixe o .CRX ou o .ZIP, caso baixe o ZIP descompacte dele em uma pasta que contenha apenas os arquivos da extensão apôs a descompressão
-2.Vai em sua pagina de extensão em seu navegador favortito
-3.Coloque ele em modo dev.
-4.Carrege a extenção, nos arquivos tem o .crx, mas por exemplo o EDGE só tem a opção de carregar a versão descompactada. Você vai selecionar a pasta no caso de carregar a extensão não empacotada.
-5.Após isso a extensão deve ser está funcionando, teste no Amazon Music 😊
+2. Vai em sua pagina de extensão em seu navegador favortito
+3. Coloque ele em modo dev.
+4. Carrege a extenção, nos arquivos tem o .crx, mas por exemplo o EDGE só tem a opção de carregar a versão descompactada. Você vai selecionar a pasta no caso de carregar a extensão não empacotada.
+5. Após isso a extensão deve ser está funcionando, teste no Amazon Music 😊
+   
 Requisitos... 
 ----------------------------------
 Cliente:
