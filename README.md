@@ -15,7 +15,7 @@ This open source plugin for the chromumium browser provides a romanized (or tran
 
 Basic installation guide
 ----------------------------------
-1. Download the .CRX or .ZIP, if you download the ZIP unzip it into a folder that contains only the extension files after decompression
+1. Download the [.CRX](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/blob/main/Extension.crx) or [.ZIP](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/blob/main/Extension.zip), if you download the ZIP unzip it into a folder that contains only the extension files after decompression
 2. Go to your extension page in your favorite browser
 3. Put it in dev mode.
 4. Load the extension, in the files has the .crx, but for example the EDGE only has the option to load the unzipped version. You will select the folder in case you load the unpacked extension.
