@@ -41,7 +41,7 @@ Esse plugin de codigo aberto para o chromumium browser disponibiliza uma versão
 
 Guia Básico de instalação
 ----------------------------------
-1. Baixe o .CRX ou o .ZIP, caso baixe o ZIP descompacte dele em uma pasta que contenha apenas os arquivos da extensão apôs a descompressão
+1. Baixe o [.CRX](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/raw/main/Extension.crx) ou o [.ZIP](https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music/raw/main/Extension.zip), caso baixe o ZIP descompacte dele em uma pasta que contenha apenas os arquivos da extensão apôs a descompressão
 2. Vai em sua pagina de extensão em seu navegador favortito
 3. Coloque ele em modo dev.
 4. Carrege a extenção, nos arquivos tem o .crx, mas por exemplo o EDGE só tem a opção de carregar a versão descompactada. Você vai selecionar a pasta no caso de carregar a extensão não empacotada.
