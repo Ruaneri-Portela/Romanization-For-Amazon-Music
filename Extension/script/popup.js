@@ -1,27 +1,34 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var switchRomanization = document.getElementById("switchRomanization");
-  var buttonStatus = true;
-  switchRomanization.addEventListener("click", function () {
-    if (buttonStatus === true) {
-      switchRomanization.textContent = "Ativado";
-    } else {
-      switchRomanization.textContent = "Desativado";
-    }
-    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-      chrome.tabs.sendMessage(tabs[0].id, { action: "changeVariable" });
-      buttonStatus = !buttonStatus;
-
-      if (buttonStatus === true) {
-        switchRomanization.textContent = "Ativado";
-        chrome.storage.local.set({ romanizeIsEnable: true }, function () {
-          console.log('Valor armazenado');
+const btn = document.getElementById("btnSwitch");
+function getIsActive() {
+    return new Promise((resolve) => {
+        chrome.storage.local.get(['romanizationIsActive'], function(result) {
+            let res = result.romanizationIsActive;
+            if (res === null || res === undefined) {
+                chrome.storage.local.set({ romanizationIsActive: true }, function() {
+                    resolve(true);
+                });
+            } else {
+                resolve(res);
+            }
         });
-      } else {
-        switchRomanization.textContent = "Desativado";
-        chrome.storage.local.set({ romanizeIsEnable: false }, function () {
-          console.log('Valor armazenado');
-        });
-      }
     });
-  });
-});
+}
+function switchIsActive(){
+    chrome.storage.local.get(['romanizationIsActive'], function(result) {
+        chrome.storage.local.set({romanizationIsActive: !result.romanizationIsActive}, function() {
+            updateBtn();
+        });
+    });
+}
+async function updateBtn() {
+    const res = await getIsActive();
+    if (!res) {
+        btn.innerHTML = "Enable";
+        btn.setAttribute("class", "btn btn-success");
+    } else {
+        btn.innerHTML = "Disable";
+        btn.setAttribute("class", "btn btn-danger");
+    }
+}
+updateBtn();
+btn.addEventListener("click", switchIsActive);
