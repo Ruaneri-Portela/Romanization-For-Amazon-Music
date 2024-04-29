@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Romanization Extension Config</title>
+  <link rel='stylesheet' href="../bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+  <nav class="navbar bg-primary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Romanization</span>
+    </div>
+  </nav>
+  <div class="container pt-4">
+    <h2>Change URL</h2>
+    <form>
+      <div class="mb-3">
+        <label for="url" class="form-label">URL</label>
+        <input type="text" class="form-control" id="url" name="url" placeholder="URL">
+      </div>
+      <button type="submit" class="btn btn-primary" id="btn-submit">Replace</button>
+      <button type="submit" class="btn btn-warning" id="btn-reset">Reset</button>
+    </form>
+    <div class="container pt-4">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Tips and Tricks
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Case you use one http url add in white list the url in flag
+              <strong>#unsafely-treat-insecure-origin-as-secure</strong> to bypass chrome secury
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="padding-top: 30px;">
+    <div class="container-fluid fixed-bottom">
+      <span>Version 1.0</span>
+      <a href="https://github.com/Ruaneri-Portela/Romanization-For-Amazon-Music" target="_blank">GitHub</a>
+      <a href="#" target="_blank">Official Site</a>
+    </div>
+  </footer>
+</body>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../script/changeurl.js"></script>
+
+</html>

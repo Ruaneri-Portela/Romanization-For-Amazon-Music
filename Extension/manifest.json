@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Romanization For Amazon Music and Spotify",
-  "version": "0.1",
+  "name": "Romanization",
+  "version": "1.0",
   "description": "Plugin for chromium browser to add romanization to lyrics on Amazon Music and Spotify",
   "background":  {
     "service_worker": "background.js"
@@ -15,7 +15,9 @@
   ],
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "http://*/*",
+    "https://*/*"
   ],
   "action": {
     "default_popup": "html/popup.html",

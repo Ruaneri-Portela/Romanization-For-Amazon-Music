@@ -1,31 +1,32 @@
+const ver = "1.0";
 let active = true;
 let percursion = 0;
 let stringsArray = [];
 let ArrayCheck = [];
 let language = 'auto';
+let url = "";
 function trasliterable(str) {
   let regex = /[\u3040-\u309F\u30A0-\u30FF\u31F0-\u31FF\u4E00-\u9FFF]/;
   let regexCoreano = /[\uAC00-\uD7A3\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uD7B0-\uD7FF]/;
   let jp = regex.test(str), kr = regexCoreano.test(str);
-  if(jp && kr){
+  if (jp && kr) {
     language = 'auto';
     return true;
   }
-  else if(jp){
-    language = 'jp';
+  else if (jp) {
+    language = 'ja';
     return true;
   }
-  else if(kr){
-    language = 'kr';
+  else if (kr) {
+    language = 'ko';
     return true;
-  } 
+  }
   else {
     return false;
   }
 }
 
 function romanize(dataIn) {
-  const url = 'https://romanization.hirameki.me/';
   const data = {
     input: dataIn,
     lang: language
@@ -36,14 +37,11 @@ function romanize(dataIn) {
       'Content-Type': 'application/x-www-form-urlencoded'
     },
     body: new URLSearchParams(data)
-  })
-    .then(response => response.text())
-    .then(data => {
-      return data;
-    })
-    .catch(error => {
-      throw error;
-    });
+  }).then(response => response.text()).then(data => {
+    return data;
+  }).catch(error => {
+    throw error;
+  });
 }
 
 function sleep(ms) {
@@ -141,17 +139,32 @@ function spotifyProcess(elements, mode) {
     percursion = 0;
   }
 }
-async function activeModule(){
-  while(true){
-    chrome.storage.local.get(['romanizationIsActive'], function(result) {
+async function activeModule() {
+  while (true) {
+    chrome.storage.local.get(['romanizationIsActive'], function (result) {
       active = result.romanizationIsActive;
     });
     await sleep(1000);
   }
 }
+function detectRomanizationAPI() {
+  chrome.storage.local.get(['romanizationURL'], function (result) {
+    if (!result.romanizationURL) {
+      chrome.storage.local.set({ romanizationURL: "https://romanization.hirameki.me" }, function () {
+        console.log('Using as romanization service ' + "https://romanization.hirameki.me");
+        url = "https://romanization.hirameki.me";
+      });
+    }
+    else {
+      console.log('Using as romanization service ' + result.romanizationURL);
+      url = result.romanizationURL;
+    }
+  });
+}
 function init() {
   activeModule();
-  console.log('Romazition for Streaming Music Service ver 0.1... Detection Service...');
+  console.log('Romazition for Streaming Music Service | Version ' + ver + '... Detecting Service...');
+  detectRomanizationAPI();
   var url = window.location.href;
   if (url.includes("amazon")) {
     console.log('Amazon Music Detected, starting romanization service on atrack in ', url);
@@ -159,6 +172,8 @@ function init() {
   } else if (url.includes("spotify")) {
     console.log('Spotify deceted, starting romanization service on atrack in ', url);
     spotify();
+  } else {
+    console.log('Service not detected shutdown...');
   }
 }
 init();
